@@ -6,3 +6,6 @@ def home(request):
 
 def room(request, room):
     return render(request, 'room.html')
+
+def checkview(request):
+    pass
